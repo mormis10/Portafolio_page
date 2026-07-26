@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(lsof -ti:3002 -sTCP:LISTEN)",
+      "Bash(xargs -r kill)"
+    ]
+  }
+}
